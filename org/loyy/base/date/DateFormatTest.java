@@ -1,4 +1,4 @@
-package org.loyy.base.sort;
+package org.loyy.base.date;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -14,5 +14,7 @@ public class DateFormatTest {
 
     public static void main(String[] args) {
         System.out.println(DateFormat.getInstance().format(new Date()));
+
+
     }
 }
