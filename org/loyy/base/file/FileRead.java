@@ -10,7 +10,7 @@ class Test {
      * @param args
      */
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+
         // 新建一个写入对象
         BufferedWriter fw;
         // 指定路径和文件名。最后的true很重要，代表已存在的文件直接读取，不新建。
@@ -24,7 +24,7 @@ class Test {
             // 关闭进程
             fw.close();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         }
 
