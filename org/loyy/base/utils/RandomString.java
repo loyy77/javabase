@@ -31,7 +31,7 @@ public class RandomString {
     /**
      * 生成一个指定长度的随机字符串
      *
-     * @param len 字符串的字符数量
+     * @param len 字符串长度
      * @return 随机字符串
      */
     public static String getRandomString(int len) {
@@ -48,7 +48,7 @@ public class RandomString {
 
         char[] upper = new char[26];
         char[] lower = new char[26];
-        char[] words = new char[26 + 26];
+        char[] letters = new char[26 + 26];
         for (int j = 0; j < 26; j++) {
             upper[j] = (char) (65 + j);
             lower[j] = (char) (97 + j);
@@ -56,16 +56,16 @@ public class RandomString {
 
         for (int j = 0; j < 52; j++) {
             if (j < 26) {
-                words[j] = upper[j];
+                letters[j] = upper[j];
             } else {
-                words[j] = lower[j - 26];
+                letters[j] = lower[j - 26];
             }
         }
 
 
-        int randomIndex = new Random().nextInt(52);
+        int randomIdx = random.nextInt(52);
 
-        return (char) words[randomIndex];
+        return (char) letters[randomIdx];
 
 
     }
