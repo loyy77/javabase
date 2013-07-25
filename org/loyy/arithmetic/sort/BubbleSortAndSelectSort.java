@@ -1,4 +1,4 @@
-﻿package org.loyy.arithmetic;
+﻿package org.loyy.arithmetic.sort;
 import java.util.Arrays;
 
 public class BubbleSortAndSelectSort{
