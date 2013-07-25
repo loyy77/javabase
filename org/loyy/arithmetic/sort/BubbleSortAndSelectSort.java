@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ï»¿package org.loyy.arithmetic;
 import java.util.Arrays;
 
@@ -5,6 +6,17 @@ import java.util.Arrays;
               int[] arr={5,2,1,6,74}; int[] arr1={8,37,3,4,96,6};
 		
 		//é€‰æ‹©æŽ’åº
+=======
+package org.loyy.arithmetic;
+import java.util.Arrays;
+
+public class BubbleSortAndSelectSort{
+	public static void main(String[] args){
+		int[] arr={5,2,1,6,74};
+		int[] arr1={8,37,3,4,96,6};
+		
+		//Ñ¡ÔñÅÅÐò
+>>>>>>> 89d982cba62ce5d689d2de1c79c2e878307b709f
 		for(int i=0;i<arr.length;i++){
 			for(int j=i+1;j<arr.length;j++){
 				if(arr[i]>arr[j]){
@@ -16,7 +28,11 @@ import java.util.Arrays;
 
 			}
 		}
+<<<<<<< HEAD
 		//å†’æ³¡æŽ’åº
+=======
+		//Ã°ÅÝÅÅÐò
+>>>>>>> 89d982cba62ce5d689d2de1c79c2e878307b709f
 		for(int i=0;i<arr1.length;i++){
 			for (int n=0; n<arr1.length-1-i; n++) {
 			 	if(arr1[n]>arr1[n+1]){
