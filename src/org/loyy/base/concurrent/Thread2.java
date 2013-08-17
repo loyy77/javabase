@@ -4,8 +4,8 @@
 package org.loyy.base.concurrent;
 
 /**
- * @author LiShixi ÂÖÁ÷"ÂôÆ±" <br/>
- *         yield()·½·¨µÄÊ¹ÓÃ
+ * @author LiShixi è½®æµ"å–ç¥¨" <br/>
+ *         yield()æ–¹æ³•çš„ä½¿ç”¨
  */
 public class Thread2 implements Runnable {
 
@@ -19,7 +19,7 @@ public class Thread2 implements Runnable {
 			synchronized (this) {
 
 					System.out.println(Thread.currentThread().getName()
-							+ "Ëµ£º¡°ÎÒÂô³öÈ¥Ò»ÕÅÆ±£¡¡±£¨ »¹Ê£Æ±Êı" + count-- + ")");
+							+ "è¯´ï¼šâ€œæˆ‘å–å‡ºå»ä¸€å¼ ç¥¨ï¼â€ï¼ˆ è¿˜å‰©ç¥¨æ•°" + count-- + ")");
 				Thread.currentThread().yield();
 
 
